@@ -1,5 +1,9 @@
 import HeroSection from './componentes/HeroSection';
-import Apresentacao from './components/Apresentacao';
+import Apresentacao from './componentes/Apresentacao';
+import Funcionalidades from './componentes/Funcionalidades';
+import Depoimentos from './componentes/Depoimentos';
+import Contato from './componentes/Contato';
+import Rodape from './componentes/Rodape';
 import './App.css';
 
 function App() {
@@ -7,6 +11,10 @@ function App() {
     <div>
       <HeroSection />
       <Apresentacao />
+      <Funcionalidades />
+      <Depoimentos />
+      <Contato />
+      <Rodape />
     </div>
   );
 }
