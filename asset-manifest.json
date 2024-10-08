@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/goumerton/static/css/main.8c113caf.css",
-    "main.js": "/goumerton/static/js/main.7d694352.js",
+    "main.js": "/goumerton/static/js/main.f00c58b7.js",
     "static/js/453.35efda2c.chunk.js": "/goumerton/static/js/453.35efda2c.chunk.js",
     "static/media/banner_goumerton.png": "/goumerton/static/media/banner_goumerton.72f61400406c3f4d2944.png",
     "static/media/carlos.png": "/goumerton/static/media/carlos.5368ea900cb7e0b2dcb4.png",
@@ -9,11 +9,11 @@
     "static/media/ana.png": "/goumerton/static/media/ana.da620421255d670799ae.png",
     "index.html": "/goumerton/index.html",
     "main.8c113caf.css.map": "/goumerton/static/css/main.8c113caf.css.map",
-    "main.7d694352.js.map": "/goumerton/static/js/main.7d694352.js.map",
+    "main.f00c58b7.js.map": "/goumerton/static/js/main.f00c58b7.js.map",
     "453.35efda2c.chunk.js.map": "/goumerton/static/js/453.35efda2c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c113caf.css",
-    "static/js/main.7d694352.js"
+    "static/js/main.f00c58b7.js"
   ]
 }
