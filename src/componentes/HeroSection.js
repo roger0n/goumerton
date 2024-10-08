@@ -7,8 +7,8 @@ const HeroContainer = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50vh;
-  background-image: url('./bannerComida.png');
+  height: 100vh;
+  background-image: url('./banner_goumerton.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -98,7 +98,7 @@ const HeroButton = styled.a`
 
 const HeroSection = () => {
   return (
-    <HeroContainer>
+    <HeroContainer id='hero'>
       <HeroTextWrapper>
         <HeroTitle>GourmetOn</HeroTitle>
         <HeroDescription>O seu app de delivery de comida com entrega rápida e uma grande variedade de restaurantes!</HeroDescription>

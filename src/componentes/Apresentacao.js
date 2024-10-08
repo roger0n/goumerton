@@ -3,21 +3,42 @@ import { FaShippingFast, FaUtensils, FaMoneyBillWave } from 'react-icons/fa';
 
 
 const ApresentacaoContainer = styled.section`
-  padding: 50px 20px;
+  padding: 30px 20px;
   background-color: #f9f9f9;
   text-align: center;
+
+  @media (min-width: 768px) {
+    padding: 50px 40px;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 70px 60px;
+  }
 `;
 
 const ApresentacaoTitle = styled.h2`
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
+
+  @media (min-width: 768px) {
+    font-size: 2.5rem;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 3rem;
+  }
 `;
 
 const BeneficiosContainer = styled.div`
   display: flex;
-  justify-content: center;
-  gap: 50px;
-  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: column;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: center;
+  }
 `;
 
 const BeneficioItem = styled.div`
@@ -34,16 +55,32 @@ const IconWrapper = styled.div`
 const BeneficioTitle = styled.h3`
   font-size: 1.5rem;
   margin-bottom: 1rem;
+
+  @media (min-width: 768px) {
+    font-size: 1.8rem;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 2rem;
+  }
 `;
 
 const BeneficioDescription = styled.p`
   font-size: 1rem;
   color: #555;
+
+  @media (min-width: 768px) {
+    font-size: 1.2rem;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 1.4rem;
+  }
 `;
 
 const Apresentacao = () => {
   return (
-    <ApresentacaoContainer>
+    <ApresentacaoContainer id='apresentacao'>
       <ApresentacaoTitle>Por que escolher o GourmetOn?</ApresentacaoTitle>
       <BeneficiosContainer>
         <BeneficioItem>

@@ -67,7 +67,7 @@ const Contato = () => {
   };
 
   return (
-    <ContatoContainer>
+    <ContatoContainer id='contato'>
       <ContatoTitle>Entre em contato</ContatoTitle>
       <Form onSubmit={handleSubmit}>
         <Input

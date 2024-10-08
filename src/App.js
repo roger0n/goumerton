@@ -4,11 +4,13 @@ import Funcionalidades from './componentes/Funcionalidades';
 import Depoimentos from './componentes/Depoimentos';
 import Contato from './componentes/Contato';
 import Rodape from './componentes/Rodape';
+import Menu from './componentes/Menu';
 import './App.css';
 
 function App() {
   return (
     <div>
+      <Menu />
       <HeroSection />
       <Apresentacao />
       <Funcionalidades />
