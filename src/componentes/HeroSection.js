@@ -8,7 +8,7 @@ const HeroContainer = styled.section`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('./banner_goumerton.png');
+  background-image: url('../imagens/banner_goumerton.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
