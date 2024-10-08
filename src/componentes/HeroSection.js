@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import banner from '../imagens/banner_goumerton.png';
 
 
 const HeroContainer = styled.section`
@@ -8,7 +8,7 @@ const HeroContainer = styled.section`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('../imagens/banner_goumerton.png');
+  background-image: url(${banner});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
