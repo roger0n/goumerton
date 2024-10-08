@@ -5,6 +5,7 @@ import Depoimentos from './componentes/Depoimentos';
 import Contato from './componentes/Contato';
 import Rodape from './componentes/Rodape';
 import Menu from './componentes/Menu';
+import Receitas from './componentes/Receitas';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <HeroSection />
       <Apresentacao />
       <Funcionalidades />
+      <Receitas />
       <Depoimentos />
       <Contato />
       <Rodape />

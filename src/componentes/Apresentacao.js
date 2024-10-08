@@ -33,11 +33,12 @@ const BeneficiosContainer = styled.div`
   display: flex;
   align-items: center;
   gap: 20px;
-  flex-wrap: column;
+  flex-direction: column;
 
   @media (min-width: 768px) {
     flex-direction: row;
     justify-content: center;
+    gap: 50px;
   }
 `;
 
@@ -50,6 +51,14 @@ const IconWrapper = styled.div`
   font-size: 3rem;
   color: #ff6347;
   margin-bottom: 1rem;
+
+  @media (min-width: 768px) {
+    font-size: 3.5rem;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 4rem;
+  }
 `;
 
 const BeneficioTitle = styled.h3`

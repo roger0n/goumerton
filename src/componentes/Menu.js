@@ -9,7 +9,7 @@ const Navbar = styled.nav`
   top: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 15px 20px;
+  padding: 15px 10px;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
@@ -17,7 +17,7 @@ const Navbar = styled.nav`
   color: white;
 
   @media (min-width: 768px) {
-    padding: 20px 0px;
+    padding: 20px 15px;
   }
 `;
 
@@ -34,6 +34,7 @@ const MenuLinks = styled.ul`
   list-style: none;
   display: flex;
   gap: 20px;
+  padding: 30px;
   
   @media (max-width: 768px) {
     display: ${({ isOpen }) => (isOpen ? 'flex' : 'none')};
@@ -42,7 +43,6 @@ const MenuLinks = styled.ul`
     right: 0px;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.9);
-    padding: 20px;
     border-radius: 10px;
     z-index: 999;
     max-height: 100vh;
@@ -73,7 +73,8 @@ const Bar = styled.div`
   width: 25px;
   height: 3px;
   background-color: white;
-  margin: 5px;
+  margin: 5px 20px;
+  
 `;
 
 const Menu = () => {

@@ -1,4 +1,7 @@
 import styled from 'styled-components';
+import carlos from '../imagens/carlos.png'
+import maria from '../imagens/maria.png';
+import ana from '../imagens/ana.png';
 
 const DepoimentosContainer = styled.section`
   padding: 30px 20px;
@@ -106,17 +109,17 @@ const Depoimentos = () => {
       <DepoimentosTitle>O que nossos clientes estão dizendo</DepoimentosTitle>
       <DepoimentosWrapper>
         <DepoimentoItem>
-          <ClienteFoto src="https://via.placeholder.com/60" alt="Cliente 1" />
+          <ClienteFoto src={maria} alt="Maria" />
           <ClienteNome>Maria Oliveira</ClienteNome>
           <ClienteDepoimento>O GourmetOn transformou a forma como faço pedidos de comida. A entrega é rápida e a variedade de restaurantes é incrível!</ClienteDepoimento>
         </DepoimentoItem>
         <DepoimentoItem>
-          <ClienteFoto src="https://via.placeholder.com/60" alt="Cliente 2" />
-          <ClienteNome>João Souza</ClienteNome>
+          <ClienteFoto src={carlos} alt="Carlos" />
+          <ClienteNome>Carlos Souza</ClienteNome>
           <ClienteDepoimento>Eu adoro a interface simples e o pagamento é super fácil. Recomendo para todos!</ClienteDepoimento>
         </DepoimentoItem>
         <DepoimentoItem>
-          <ClienteFoto src="https://via.placeholder.com/60" alt="Cliente 3" />
+          <ClienteFoto src={ana} alt="Ana" />
           <ClienteNome>Ana Pereira</ClienteNome>
           <ClienteDepoimento>Excelente serviço! O atendimento ao cliente é fantástico e eu nunca tive problemas com meus pedidos.</ClienteDepoimento>
         </DepoimentoItem>
