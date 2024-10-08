@@ -10,9 +10,13 @@ const SectionContainer = styled.section`
 `;
 
 const Title = styled.h2`
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 40px; /* Dá espaço entre o título e os cards */
   color: #333;
+
+  @media (min-width: 768px) {
+    font-size: 2em;
+  }
 `;
 
 const ReceitasContainer = styled.section`
@@ -55,8 +59,12 @@ const ReceitaImagem = styled.img`
 `;
 
 const ReceitaTitulo = styled.h3`
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 10px;
+
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
+  }
 `;
 
 const Receitas = () => {
