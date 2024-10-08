@@ -17,7 +17,7 @@ const HeroContainer = styled.section`
 
   /* Ajuste para tablets */
   @media (min-width: 768px) {
-    height: 90vh; /* Aumenta um pouco a altura para tablets */
+    height: 90vh; 
     padding: 40px;
   }
 
@@ -29,16 +29,16 @@ const HeroContainer = styled.section`
 `;
 
 const HeroTextWrapper = styled.div`
-  background-color: rgba(0, 0, 0, 0.8); /* Fundo semitransparente para melhorar a legibilidade */
+  background-color: rgba(0, 0, 0, 0.8); 
   padding: 15px;
   border-radius: 10px;
 
    @media (min-width: 768px) {
-    padding: 25px; /* Mais padding para tablets */
+    padding: 25px; 
   }
 
   @media (min-width: 1024px) {
-    padding: 35px; /* Mais padding para desktops */
+    padding: 35px; 
   }
 `;
 
@@ -47,11 +47,11 @@ const HeroTitle = styled.h1`
   margin-bottom: 1rem;
 
   @media (min-width: 768px) {
-    font-size: 3rem; /* Tamanho do título em tablets */
+    font-size: 3rem; 
   }
 
   @media (min-width: 1024px) {
-    font-size: 4rem; /* Tamanho do título em desktops */
+    font-size: 4rem; 
   }
 `;
 
@@ -61,14 +61,14 @@ const HeroDescription = styled.p`
   max-width: 100%;
 
   @media (min-width: 768px) {
-    font-size: 1.4rem; /* Tamanho do texto em tablets */
+    font-size: 1.4rem; 
     margin-bottom: 2rem;
-    max-width: 80%; /* Limita a largura para tablets */
+    max-width: 80%; 
   }
 
   @media (min-width: 1024px) {
-    font-size: 1.6rem; /* Tamanho do texto em desktops */
-    max-width: 600px; /* Limita mais a largura para desktops */
+    font-size: 1.6rem; 
+    max-width: 600px; 
   }
 `;
 
