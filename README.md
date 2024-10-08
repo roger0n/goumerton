@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# CP05 - WEB - 1ESA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## integrantes
+### Augusto Ferreira Rogel de Souza / Rm557709
 
-## Available Scripts
+## Tecnologias
+React
 
-In the project directory, you can run:
 
-### `npm start`
+## Descrição do projeto 
+<p>Este projeto é um site responsivo desenvolvido utilizando React. O site possui várias seções, incluindo um cabeçalho fixo, uma banner, uma apresentação de funcionalidades, depoimentos e um formulário de contato. Também foi implementado um sistema de grid e responsividade para garantir que o site seja visualmente atraente e funcional em diferentes tamanhos de tela.
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p><b>Header:</b>Um cabeçalho fixo que muda de estilo ao rolar a página. Ele contém um menu de navegação com links estilizados e uma logo.</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p><b>Banner:</b>Seção de destaque com uma imagem de fundo, um título e um subtítulo, além de um botão CTA (Call to Action).</p>
 
-### `npm test`
+<p><b>Apresentação de Benefícios:</b>Mostra uma lista de benefícios em cards, com ícones, títulos e descrições. Cada card possui um efeito de hover que eleva o elemento.</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p><b>Funcionalidades:</b>Seção que exibe funcionalidades importantes do projeto, com uma apresentação visual em cards.</p>
 
-### `npm run build`
+<p><b>Depoimentos:</b>Uma área para exibir depoimentos de usuários, organizada em um carousel com controles de navegação.</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p><b>Formulário:</b> Um formulário de contato estilizado, centralizado e com tamanho reduzido para garantir boa usabilidade em dispositivos móveis.</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p><b>Footer:</b>Um rodapé simples com links para redes sociais, incluindo ícones.</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Estilização
+<p>O projeto utiliza o pré-processador SASS (SCSS) para uma gestão mais eficiente das variáveis de cores e estilos globais. Algumas das variáveis definidas no projeto incluem:</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p>$bg-color-footer: Cor de fundo do rodapé.</p>
+<p>$bg-color-header: Cor de fundo do cabeçalho quando o usuário rola a página.</p>
+<p>$bg-color-header-mobile: Cor de fundo do cabeçalho para os usuarios de tela pequenas</p>
+<p>$bg-color-botao: Cor de fundo dos botões.</p>
+<p>$cor-texto: Cor principal do texto no site.</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Responsividade
+<p> O layout é totalmente responsivo, utilizando media queries para ajustar o design em diferentes resoluções de tela. O sistema de grid foi ajustado para:</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>Telas pequenas (até 768px): Grid de 1 coluna, com elementos empilhados verticalmente.</p>
+<p>Telas médias (768px a 1024px): Grid de 4 colunas.</p>
+<p>Telas grandes (acima de 1024px): Grid de 6 colunas, permitindo uma disposição mais horizontal dos elementos.</p>
