@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 
 
+
 const HeroContainer = styled.section`
   display: flex;
   flex-direction: column;
