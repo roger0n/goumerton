@@ -4,40 +4,34 @@
 ### Augusto Ferreira Rogel de Souza / Rm557709
 
 ## Tecnologias
-React
+React | Styled-components | Spoonacular API 
 
 
 ## Descrição do projeto 
-<p>Este projeto é um site responsivo desenvolvido utilizando React. O site possui várias seções, incluindo um cabeçalho fixo, uma banner, uma apresentação de funcionalidades, depoimentos e um formulário de contato. Também foi implementado um sistema de grid e responsividade para garantir que o site seja visualmente atraente e funcional em diferentes tamanhos de tela.
+<p>Este projeto é um site responsivo desenvolvido em **React**, com foco em um design moderno e limpo. O site contém várias seções, incluindo um menu de navegação fixo com scroll suave, um banner de destaque, uma apresentação de funcionalidades, depoimentos de clientes e uma seção de receitas alimentares integradas com a **Spoonacular API**. O layout é completamente responsivo, adaptando-se a diferentes tamanhos de tela para proporcionar uma excelente experiência de usuário em qualquer dispositivo.
 </p>
 
-<p><b>Header:</b>Um cabeçalho fixo que muda de estilo ao rolar a página. Ele contém um menu de navegação com links estilizados e uma logo.</p>
+<p><b>Menu de Navegação:</b> Um menu fixo que permite a navegação suave entre as seções da página. Ele contém links para cada seção, além de um ícone "hamburger" para dispositivos móveis.</p>
 
-<p><b>Banner:</b>Seção de destaque com uma imagem de fundo, um título e um subtítulo, além de um botão CTA (Call to Action).</p>
+<p><b>Banner (Hero Section):</b> Seção de destaque com uma imagem de fundo, um título chamativo e um botão CTA (Call to Action) para incentivar os usuários a baixar o app</p>
 
-<p><b>Apresentação de Benefícios:</b>Mostra uma lista de benefícios em cards, com ícones, títulos e descrições. Cada card possui um efeito de hover que eleva o elemento.</p>
+<p><b>Apresentação de Benefícios:</b> Mostra uma lista de benefícios em cards com ícones, títulos e descrições. Cada card possui um efeito de hover que eleva o elemento, destacando a informação de maneira visualmente agradável.</p>
 
-<p><b>Funcionalidades:</b>Seção que exibe funcionalidades importantes do projeto, com uma apresentação visual em cards.</p>
+<p><b>Funcionalidades:</b> Seção que exibe as principais funcionalidades do projeto, organizadas em um layout de cards responsivo, com ícones representando cada funcionalidade.</p>
 
-<p><b>Depoimentos:</b>Uma área para exibir depoimentos de usuários, organizada em um carousel com controles de navegação.</p>
+<p><b>Receitas Aleatórias:</b> Integração com a **Spoonacular API** para exibir receitas aleatórias. Cada receita é mostrada em um card com imagem, título, tempo de preparo.</p>
 
-<p><b>Formulário:</b> Um formulário de contato estilizado, centralizado e com tamanho reduzido para garantir boa usabilidade em dispositivos móveis.</p>
+<p><b>Depoimentos:</b> Uma área para exibir depoimentos de usuários, com fotos e comentários sobre o serviço. Os depoimentos são organizados em uma disposição de grade responsiva.</p>
 
-<p><b>Footer:</b>Um rodapé simples com links para redes sociais, incluindo ícones.</p>
+<p><b>Formulário de Contato:</b> Um formulário estilizado para que os usuários possam entrar em contato. O layout do formulário é adaptado para ser facilmente utilizável em dispositivos móveis.</p>
 
+<p><b>Rodapé:</b> Um rodapé simples que contém links para redes sociais e ícones correspondentes, além de links para os termos de uso e política de privacidade.</p>
 
-## Estilização
-<p>O projeto utiliza o pré-processador SASS (SCSS) para uma gestão mais eficiente das variáveis de cores e estilos globais. Algumas das variáveis definidas no projeto incluem:</p>
-
-<p>$bg-color-footer: Cor de fundo do rodapé.</p>
-<p>$bg-color-header: Cor de fundo do cabeçalho quando o usuário rola a página.</p>
-<p>$bg-color-header-mobile: Cor de fundo do cabeçalho para os usuarios de tela pequenas</p>
-<p>$bg-color-botao: Cor de fundo dos botões.</p>
-<p>$cor-texto: Cor principal do texto no site.</p>
 
 ## Responsividade
-<p> O layout é totalmente responsivo, utilizando media queries para ajustar o design em diferentes resoluções de tela. O sistema de grid foi ajustado para:</p>
+<p>O layout do site foi projetado para ser totalmente responsivo, utilizando **media queries** para ajustar o design em diferentes resoluções de tela. O sistema de grid foi adaptado para os seguintes tamanhos de tela:</p>
 
-<p>Telas pequenas (até 768px): Grid de 1 coluna, com elementos empilhados verticalmente.</p>
-<p>Telas médias (768px a 1024px): Grid de 4 colunas.</p>
-<p>Telas grandes (acima de 1024px): Grid de 6 colunas, permitindo uma disposição mais horizontal dos elementos.</p>
+<p>- **Telas pequenas (até 768px):** Layout com 1 coluna, onde os elementos são empilhados verticalmente.</p>
+<p>- **Telas médias (768px a 1024px):** Layout com 2 a 4 colunas, ajustando as seções conforme o espaço disponível.</p>
+<p>- **Telas grandes (acima de 1024px):** Layout com 3 a 6 colunas, permitindo uma disposição mais horizontal e aproveitando melhor o espaço disponível.</p>
+
