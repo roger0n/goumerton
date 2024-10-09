@@ -8,7 +8,7 @@ React | Styled-components | Spoonacular API
 
 
 ## Descrição do projeto 
-<p>Este projeto é um site responsivo desenvolvido em **React**, com foco em um design moderno e limpo. O site contém várias seções, incluindo um menu de navegação fixo com scroll suave, um banner de destaque, uma apresentação de funcionalidades, depoimentos de clientes e uma seção de receitas alimentares integradas com a **Spoonacular API**. O layout é completamente responsivo, adaptando-se a diferentes tamanhos de tela para proporcionar uma excelente experiência de usuário em qualquer dispositivo.
+<p>Este projeto é um site responsivo desenvolvido em React, com foco em um design moderno e limpo. O site contém várias seções, incluindo um menu de navegação fixo com scroll suave, um banner de destaque, uma apresentação de funcionalidades, depoimentos de clientes e uma seção de receitas alimentares integradas com a **Spoonacular API**. O layout é completamente responsivo, adaptando-se a diferentes tamanhos de tela para proporcionar uma excelente experiência de usuário em qualquer dispositivo.
 </p>
 
 <p><b>Menu de Navegação:</b> Um menu fixo que permite a navegação suave entre as seções da página. Ele contém links para cada seção, além de um ícone "hamburger" para dispositivos móveis.</p>
@@ -19,7 +19,7 @@ React | Styled-components | Spoonacular API
 
 <p><b>Funcionalidades:</b> Seção que exibe as principais funcionalidades do projeto, organizadas em um layout de cards responsivo, com ícones representando cada funcionalidade.</p>
 
-<p><b>Receitas Aleatórias:</b> Integração com a **Spoonacular API** para exibir receitas aleatórias. Cada receita é mostrada em um card com imagem, título, tempo de preparo.</p>
+<p><b>Receitas Aleatórias:</b> Integração com a Spoonacular API para exibir receitas aleatórias. Cada receita é mostrada em um card com imagem, título, tempo de preparo.</p>
 
 <p><b>Depoimentos:</b> Uma área para exibir depoimentos de usuários, com fotos e comentários sobre o serviço. Os depoimentos são organizados em uma disposição de grade responsiva.</p>
 
@@ -29,9 +29,9 @@ React | Styled-components | Spoonacular API
 
 
 ## Responsividade
-<p>O layout do site foi projetado para ser totalmente responsivo, utilizando **media queries** para ajustar o design em diferentes resoluções de tela. O sistema de grid foi adaptado para os seguintes tamanhos de tela:</p>
+<p>O layout do site foi projetado para ser totalmente responsivo, utilizando media queries para ajustar o design em diferentes resoluções de tela. O sistema de grid foi adaptado para os seguintes tamanhos de tela:</p>
 
-<p>- **Telas pequenas (até 768px):** Layout com 1 coluna, onde os elementos são empilhados verticalmente.</p>
-<p>- **Telas médias (768px a 1024px):** Layout com 2 a 4 colunas, ajustando as seções conforme o espaço disponível.</p>
-<p>- **Telas grandes (acima de 1024px):** Layout com 3 a 6 colunas, permitindo uma disposição mais horizontal e aproveitando melhor o espaço disponível.</p>
+<p>- Telas pequenas (até 768px): Layout com 1 coluna, onde os elementos são empilhados verticalmente.</p>
+<p>- Telas médias (768px a 1024px): Layout com 2 a 4 colunas, ajustando as seções conforme o espaço disponível.</p>
+<p>- Telas grandes (acima de 1024px): Layout com 3 a 6 colunas, permitindo uma disposição mais horizontal e aproveitando melhor o espaço disponível.</p>
 
